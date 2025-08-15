@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* 100% viewport height */
+  overflow-x: hidden; /* Vertical scroll remove karega */
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+.left{
+  display: flex;
+  margin: 1.4rem;
+}
+.center{
+  float: left;
+  display: flex;
+}
+.center li a{
+  width: 5rem;
+  color: black;
+}
+.right{
+  float: left;
+}
+.custom-btn {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  /* border-radius: 10px; */
+  padding: 10px 20px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  margin-bottom: 50rem;
+}
+
+.custom-btn:hover {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border-color: aliceblue;
+}
+.custom-btn{
+    width: 35vb;
+    height: 10vb;
+    margin-bottom: 50vb;
+}
+h1{
+    margin: 80vb;
+    font-size: 20vh;
+    margin-left: auto;
+    margin-bottom: auto;
+    width: 100%;
+    height: 100%;
+}
+.custom-btn2{
+  width: 30vb;
+  height: 7vb;
+  /* margin: auto; */
+  padding: 10px 20px;
+  margin: 5rem auto;
+  transition: 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.custom-btn2:hover{
+  color: rgb(190, 185, 175);
+  /* background-color: rgb(190, 185, 175); */
+  border-color:rgb(190, 185, 175);
+}
+#shop_now{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 100vb;
+}
+
+#time b{
+  /* margin-bottom: 20vh; */
+  font-size: larger;
+  display: flex;
+  /* justify-content: flex-start;
+  align-items: flex-start; */
+  /* margin-bottom: 50vb; */
+  justify-content: flex-end;
+  align-items: flex-end;
+
+}
+#rightside{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+#outer-card {
+  position: relative;
+}
+
+#inner-card {
+  position: absolute;
+  bottom: 0; /* ya top: 20px; */
+  left: 20px;
+}
+#form{
+  position: relative;
+  float: left;
+  margin-left: 40rem;
+  width: 35rem;
+  color: black;
+  border: 2px solid black;
+  
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  float: right;
+}
+  .form-box {
+    border: 2px solid #ddd; 
+    /* /* border-radius: 8px;   */
+    padding: 60px;         
+    margin-top: 30px;       
+    background: #fff;       
+  }
+  .overlap-img {
+    margin-top: -80px; /* Overlap ka size adjust karo */
+    z-index: 2;
+    position: relative;
+    color: black;
+  }
+  #slidebar{
+    margin-bottom: 10rem;
+  }
+  #hotdeals{
+    margin-bottom: 2rem;
+  }
+
